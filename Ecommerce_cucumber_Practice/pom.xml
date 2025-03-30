@@ -1,14 +1,16 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
-  <modelVersion>4.0.0</modelVersion>
-  <groupId>opeancart.com</groupId>
-  <artifactId>Ecommerce_cucumber_Practice</artifactId>
-  <version>1.0.0-SNAPSHOT</version>
-  <properties>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>opeancart.com</groupId>
+	<artifactId>Ecommerce_cucumber_Practice</artifactId>
+	<version>1.0.0-SNAPSHOT</version>
+	<properties>
 		<maven.compiler.source>11</maven.compiler.source>
 		<maven.compiler.target>11</maven.compiler.target>
-		 <selenium.version>4.20.0</selenium.version>
-    <cucumber.version>7.15.0</cucumber.version>
-    <webdrivermanager.version>5.6.3</webdrivermanager.version>
+		<selenium.version>4.20.0</selenium.version>
+		<cucumber.version>7.15.0</cucumber.version>
+		<webdrivermanager.version>5.6.3</webdrivermanager.version>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
 	<build>
@@ -55,7 +57,7 @@
 			<version>7.17.0</version>
 		</dependency>
 		<!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-core -->
-		
+
 		<!-- https://mvnrepository.com/artifact/log4j/log4j -->
 		<dependency>
 			<groupId>org.apache.logging.log4j</groupId>
@@ -138,6 +140,13 @@
 			Chrome version -->
 			<version>4.11.0</version> <!-- Match Selenium version -->
 		</dependency>
+		<!--
+		https://mvnrepository.com/artifact/io.qameta.allure/allure-cucumber-jvm -->
+		<dependency>
+			<groupId>io.qameta.allure</groupId>
+			<artifactId>allure-cucumber-jvm</artifactId>
+			<version>2.20.1</version>
+		</dependency>
 	</dependencies>
 
-	</project>
+</project>
